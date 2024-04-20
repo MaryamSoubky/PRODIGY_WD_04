@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: #1b2024;
+}
+
+header {
+     background-color: #1b2024;
+     width: 100%;
+     position: fixed;
+     z-index: 999;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 50px;
+}
+
+.logo {
+     color: #FFDF64;
+     text-decoration: none;
+     font-weight: 700;
+     font-size: 1.8em;
+}
+
+.navigation a {
+     color: #FFDF64;
+     font-size: 1.1em;
+     text-decoration: none;
+     font-weight: 700;
+     padding-left: 20px;
+}
+
+.navigation a:hover {
+     color: #01BAEF;
+}
+
+section {
+     padding: 100px 50px;
+}
+
+.main {
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     background: url("Pictures/background.jpg") no-repeat;
+     background-size: cover;
+     background-position: right right;
+     background-attachment: fixed;
+}
+
+.main h2 {
+     color:  #FFDF64;
+     font-size: 2em;
+     font-weight: 700;
+     padding-left: 0;
+}
+
+.main h2 span {
+     color:  #FFDF64;
+     font-size: 1em;
+     font-weight: 400;
+     display: inline-block;
+     margin-top: 10px;
+}
+
+.main h3 {
+     color:  #FFDF64;
+     font-size: 2em;
+     font-weight: 800;
+     margin-top: 10px;
+     margin-bottom: 30px;
+     letter-spacing: 1px;
+}
+
+.viewButton {
+     color: #1b2024;
+     background-color: #FFDF64;
+     text-decoration: none;
+     font-size: 1.1em;
+     font-weight: 600;
+     display: inline-block;
+     padding: 10px 20px;
+     border-radius: 5px;
+     transition: background-color 0.7s ease;
+}
+
+.link {
+     color: #FFDF64;
+}
+
+.social-icons {
+     padding: 10px;
+     font-size: 30px;
+     width: 50px;
+     text-align:center;
+     text-decoration: none;
+     margin: 5px 20px;
+}
+
+.social-icons:hover {
+     opacity: 0.7;
+}
+   
+.fa-linkedin{
+     color: #FFDF64;
+}
+.fa-github {
+     color: #FFDF64;
+}
+
+.card {
+     background-color: #FFDF64;
+     width: 20.25em;
+     box-shadow: 0 5px 25px #01BAEF;
+     border-radius: 10px;
+     padding: 25px;
+     margin: 15px;
+     transition: 0.7s ease;
+}
+
+.card:hover {
+     transform: scale(1.1);
+}
+ 
+.projects .content {
+     margin-top: 50px;
+}
+ 
+.projectCard { 
+     background-color: #FFDF64;
+     border: 5px solid #FFDF64;
+     box-shadow: 0 5px 25px #01BAEF;
+     min-height: 14em;
+     width: 23em;
+     overflow: hidden;
+     border-radius: 10px;
+     margin: 20px;
+     transition: 0.7s ease;
+     text-align: center;
+}
+ 
+.projectCard:hover {
+     transform: scale(1.1);
+}
+
+.projectCard:hover .projectImg {
+     opacity: 0.9;
+}
+
+.contact-info {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+}
+ 
+.contact-item {
+     display: flex;
+     align-items: center;
+     margin-right: 30px;
+}
+ 
+.contact-item i {
+     font-size: 24px;
+     margin-right: 10px;
+}
+ 
+.contact-item span {
+     font-size: 18px;
+     color: #333;
+}
+ 
+.contact {
+     background-color: #1b2024;
+     padding: 100px 50px;
+     color:#FFDF64;
+}
+
+footer{
+     background-color: #1b2024;
+     padding: 10px 10px;
+     color:#FFDF64;
+}
+
+#aboutme{
+     background-color: #1b2024;
+}
+
+.title{
+     color: #FFDF64;
+}
+
+.cards{
+     background-color: #1b2024;
+}
+
+button{
+     position: fixed;
+     bottom: 50px;
+     right: 50px;
+     color: #1b2024;
+     background-color: #FFDF64;
+     text-decoration: none;
+     font-size: 0.8em;
+     font-weight: 600;
+     display: inline-block;
+     padding: 5px 10px;
+     border-radius: 5px;
+}
+
+.phoneNm{
+     color:#FFDF64;
+}
+
+.mail{
+     color:#FFDF64;
+}
+
+p.content{
+     color:#FFDF64;
+}
